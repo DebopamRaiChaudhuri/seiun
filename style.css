@@ -31,7 +31,7 @@ body {
     position: absolute;
     width: 100%;
     height: 100vh;
-    background-image: url(/images/ghibli\ whisper.gif);
+    background-image: url(images/ghibli\ whisper.gif);
     background-size: cover;
     background-position: center;
     margin: 0;
