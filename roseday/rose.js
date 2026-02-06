@@ -68,7 +68,7 @@ gsap.from(linefourth, {
         trigger: ".fourthsectextwrap",
         start: "-120 60%",
        end: "50% 30%",
-       markers: true,
+       
        toggleActions: "play none none reverse",
       fastScrollEnd: true,}
       
