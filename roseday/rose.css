@@ -13,18 +13,43 @@
     display: flex;
     margin: 0%;
     padding: 0%;
-    height: 100vh;
+    height: 136vh;
     width: 100%;
-    background-image: url(/images/rosesec\ 1.png);
+    background-image: url(/images/rosesec1.png);
     background-size: cover;
     background-repeat: no-repeat;
+    align-items: center;
 }
+.firstsec h1{
+   position: absolute;
+    top:25%;
+    font-size: 6rem;
+    font-family: "Cormorant", serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #412201;
+    width: 100%;
+    justify-content: center;
+    margin-left: auto;
+    text-align: center;
+    z-index: 8;
+}
+.firstsec img{
+      position: absolute;
+    right: 38%;
+    top: 6%;
+    height: 40%;
+    rotate: 45deg;
+    z-index: 7;
+}
+
+
 .secondsec{
     position: relative;
-  background-image: url(/images/rose\ sec\ 2.png);
+  background-image: url(/images/rosesec2.png);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 145vh;
     width: 100%;
     color: white;
 
@@ -36,7 +61,7 @@
     transform: translate(52%, -50%);
     text-align: left;
     width: 26%;
-    font-size: 1rem;
+    font-size: 1.3rem;
     font-family: "Cormorant", serif;
     font-weight: 400;
   
@@ -54,12 +79,25 @@
   position: relative;
   z-index: 1;
 }
-.thirdsec{
+.secondsec .imgwrapper{
+    position: absolute;
+    left: 10%;
+    top: 60%;
+    transform: translateY(-50%);
+    z-index: 5;
+    height: 67%;
+    rotate: -20deg;
+    
+}
+.secondsec .imgwrapper img{
+    height: 100%;}
+
+    .thirdsec{
     position: relative;
-  background-image: url(/images/rose\ sec\ 3.png);
+  background-image: url(/images/rosesec3.png);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 155vh;
     width: 100%;
     color: white;
 
@@ -67,11 +105,11 @@
 .thirdsectextwrap{
     
     top: 50%;
-    left: 50%;
+    
     transform: translate(52%, -50%);
     text-align: left;
     width: 26%;
-    font-size: 1rem;
+    font-size: 1.3rem;
     font-family: "Cormorant", serif;
     font-weight: 400;
   
@@ -88,4 +126,66 @@
 .thirdsec > * {
   position: relative;
   z-index: 1;
+}
+ .thirdimagewrap{
+    position: absolute;
+   left: 48%;
+    top: 51%;
+    transform: translateY(-50%);
+    z-index: 5;
+    height: 67%;
+    rotate: 18deg;
+    
+}
+.thirdimagewrap img{
+    height: 100%;
+}
+.fourthsec{
+    position: relative;
+  background-image: url(/images/FlowerWallpaper.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 144vh;
+    width: 100%;
+    color: white;
+
+}
+.fourthsectextwrap{
+    
+    top: 73%;
+    left: 50%;
+    transform: translate( -50%);
+    text-align:center;
+    width: 44%;
+    font-size: 1rem;
+    font-family: "Cormorant", serif;
+    font-weight: 400;
+  
+  font-style: normal;
+}
+.fourthsec::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6); /* darkness */
+  z-index: 0;
+}
+
+.fourthsec > * {
+  position: relative;
+  z-index: 1;
+}
+.fourthimagewrap{
+    position: absolute;
+       left: 33%;
+    top: 40%;
+    transform: translateY(-50%);
+    z-index: 10;
+    height: 67%;
+    
+    
+}
+.fourthimagewrap img{
+    height: 100%;
+    
 }
