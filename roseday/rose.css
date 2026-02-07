@@ -15,7 +15,7 @@
     padding: 0%;
     height: 136vh;
     width: 100%;
-    background-image: url(images/rosesec1.png);
+    background-image: url("images/rosesec1.png");
     background-size: cover;
     background-repeat: no-repeat;
     align-items: center;
@@ -94,7 +94,7 @@
 
     .thirdsec{
     position: relative;
-  background-image: url(./images/rosesec3.png);
+  background-image: url(/images/rosesec3.png);
     background-size: cover;
     background-repeat: no-repeat;
     height: 155vh;
