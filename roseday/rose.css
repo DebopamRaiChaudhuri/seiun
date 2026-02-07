@@ -94,7 +94,7 @@
 
     .thirdsec{
     position: relative;
-  background-image: url(images/rosesec3.png);
+  background-image: url(./images/rosesec3.png);
     background-size: cover;
     background-repeat: no-repeat;
     height: 155vh;
