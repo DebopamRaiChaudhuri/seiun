@@ -15,7 +15,7 @@
     padding: 0%;
     height: 136vh;
     width: 100%;
-    background-image: url("/images/rosesec1.png");
+    background-image: url("../images/rosesec1.png");
     background-size: cover;
     background-repeat: no-repeat;
     align-items: center;
@@ -46,7 +46,7 @@
 
 .secondsec{
     position: relative;
-  background-image: url(images/rosesec2.png);
+  background-image: url("../images/rosesec2.png");
     background-size: cover;
     background-repeat: no-repeat;
     height: 145vh;
@@ -94,7 +94,7 @@
 
     .thirdsec{
     position: relative;
-  background-image: url(/images/rosesec3.png);
+  background-image: url("../images/rosesec3.png");
     background-size: cover;
     background-repeat: no-repeat;
     height: 155vh;
@@ -142,7 +142,7 @@
 }
 .fourthsec{
     position: relative;
-  background-image: url(images/FlowerWallpaper.png);
+  background-image: url("../images/FlowerWallpaper.png");
     background-size: cover;
     background-repeat: no-repeat;
     height: 144vh;
